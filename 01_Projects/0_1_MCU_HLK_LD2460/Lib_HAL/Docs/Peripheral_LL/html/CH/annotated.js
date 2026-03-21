@@ -1,0 +1,28 @@
+var annotated =
+[
+    [ "LL_ADC_Init_T", "group__adc__struct__define.html#structLL__ADC__Init__T", "group__adc__struct__define_structLL__ADC__Init__T" ],
+    [ "LL_CRC_Init_T", "group__crc__struct__define.html#structLL__CRC__Init__T", "group__crc__struct__define_structLL__CRC__Init__T" ],
+    [ "LL_DMA_Init_T", "group__dma__struct__define.html#structLL__DMA__Init__T", "group__dma__struct__define_structLL__DMA__Init__T" ],
+    [ "LL_FLASH_Config_EraseInit_T", "group__flash__struct__define.html#structLL__FLASH__Config__EraseInit__T", "group__flash__struct__define_structLL__FLASH__Config__EraseInit__T" ],
+    [ "LL_FLASH_Config_ProgramInit_T", "group__flash__struct__define.html#structLL__FLASH__Config__ProgramInit__T", "group__flash__struct__define_structLL__FLASH__Config__ProgramInit__T" ],
+    [ "LL_GPIO_Init_T", "group__gpio__struct__define.html#structLL__GPIO__Init__T", "group__gpio__struct__define_structLL__GPIO__Init__T" ],
+    [ "LL_I2C_Init_T", "group__i2c__struct__define.html#structLL__I2C__Init__T", "group__i2c__struct__define_structLL__I2C__Init__T" ],
+    [ "LL_I2S_Init_T", "group__i2s__struct__define.html#structLL__I2S__Init__T", "group__i2s__struct__define_structLL__I2S__Init__T" ],
+    [ "LL_IWDG_Init_T", "group__iwdg__struct__define.html#structLL__IWDG__Init__T", "group__iwdg__struct__define_structLL__IWDG__Init__T" ],
+    [ "LL_RCC_ClkConfig_t", "group__rcc__struct__define.html#structLL__RCC__ClkConfig__t", "group__rcc__struct__define_structLL__RCC__ClkConfig__t" ],
+    [ "LL_RCC_OscConfig_t", "group__rcc__struct__define.html#structLL__RCC__OscConfig__t", "group__rcc__struct__define_structLL__RCC__OscConfig__t" ],
+    [ "LL_RCC_PLLConfig_t", "group__rcc__struct__define.html#structLL__RCC__PLLConfig__t", "group__rcc__struct__define_structLL__RCC__PLLConfig__t" ],
+    [ "LL_RTC_Alarm_T", "group__rtc__struct__define.html#structLL__RTC__Alarm__T", "group__rtc__struct__define_structLL__RTC__Alarm__T" ],
+    [ "LL_RTC_Date_T", "group__rtc__struct__define.html#structLL__RTC__Date__T", "group__rtc__struct__define_structLL__RTC__Date__T" ],
+    [ "LL_RTC_Init_T", "group__rtc__struct__define.html#structLL__RTC__Init__T", "group__rtc__struct__define_structLL__RTC__Init__T" ],
+    [ "LL_RTC_Time_T", "group__rtc__struct__define.html#structLL__RTC__Time__T", "group__rtc__struct__define_structLL__RTC__Time__T" ],
+    [ "LL_SPI_Init_T", "group__spi__struct__define.html#structLL__SPI__Init__T", "group__spi__struct__define_structLL__SPI__Init__T" ],
+    [ "LL_TPM_Break_T", "group__tpm__struct__define.html#structLL__TPM__Break__T", "group__tpm__struct__define_structLL__TPM__Break__T" ],
+    [ "LL_TPM_Capture_T", "group__tpm__struct__define.html#structLL__TPM__Capture__T", "group__tpm__struct__define_structLL__TPM__Capture__T" ],
+    [ "LL_TPM_Init_T", "group__tpm__struct__define.html#structLL__TPM__Init__T", "group__tpm__struct__define_structLL__TPM__Init__T" ],
+    [ "LL_TPM_LoadMode_T", "group__tpm__struct__define.html#structLL__TPM__LoadMode__T", "group__tpm__struct__define_structLL__TPM__LoadMode__T" ],
+    [ "LL_TPM_OC_T", "group__tpm__struct__define.html#structLL__TPM__OC__T", "group__tpm__struct__define_structLL__TPM__OC__T" ],
+    [ "LL_TPM_PWMN_T", "group__tpm__struct__define.html#structLL__TPM__PWMN__T", "group__tpm__struct__define_structLL__TPM__PWMN__T" ],
+    [ "LL_UART_Init_T", "group__uart__struct__define.html#structLL__UART__Init__T", "group__uart__struct__define_structLL__UART__Init__T" ],
+    [ "LL_WWDG_Init_T", "group__wwdg__struct__define.html#structLL__WWDG__Init__T", "group__wwdg__struct__define_structLL__WWDG__Init__T" ]
+];

@@ -1,0 +1,25 @@
+var group__rcc__control =
+[
+    [ "Oscillator Configuration Type", "group__rcc__osc__type.html", "group__rcc__osc__type" ],
+    [ "OSC/Clock Config", "group__rcc__osc__clk__config.html", "group__rcc__osc__clk__config" ],
+    [ "PLL Clock Source Selection", "group__rcc__pll__clk__sel.html", "group__rcc__pll__clk__sel" ],
+    [ "PLL Clock Divider", "group__rcc__pll__clk__div.html", "group__rcc__pll__clk__div" ],
+    [ "Clock Configuration Type", "group__rcc__clk__type.html", "group__rcc__clk__type" ],
+    [ "System Clock Source Selection", "group__rcc__system__clk__sel.html", "group__rcc__system__clk__sel" ],
+    [ "AHB clock(HCLK) prescaler", "group__rcc__hclk__div.html", "group__rcc__hclk__div" ],
+    [ "APB0/APB1 clock prescaler", "group__rcc__apb0__apb1__clk__div.html", "group__rcc__apb0__apb1__clk__div" ],
+    [ "Peripheral Clock Source Selection", "group__rcc__peripheral__clk__sel.html", "group__rcc__peripheral__clk__sel" ],
+    [ "CT16B5 Clock Source Selection", "group__rcc__ct16b5__clk__sel.html", "group__rcc__ct16b5__clk__sel" ],
+    [ "WWDT Clock Source Selection", "group__rcc__wwdt__clk__sel.html", "group__rcc__wwdt__clk__sel" ],
+    [ "Clock Output source", "group__rcc__clkout__src.html", "group__rcc__clkout__src" ],
+    [ "Clock Output prescaler", "group__rcc__clkout__div.html", "group__rcc__clkout__div" ],
+    [ "LCM clock prescaler", "group__rcc__lcm__prescaler.html", "group__rcc__lcm__prescaler" ],
+    [ "GPIO driving/sinking strength", "group__rcc__gpio__strength.html", "group__rcc__gpio__strength" ],
+    [ "GPIO n Select", "group__rcc__gpio__n.html", "group__rcc__gpio__n" ],
+    [ "GPIO pin Select", "group__rcc__gpio__pin.html", "group__rcc__gpio__pin" ],
+    [ "Clock Output pin", "group__rcc__clkout__pin.html", "group__rcc__clkout__pin" ],
+    [ "SRAMnCTRL Select", "group__rcc__sram__n__ctrl.html", "group__rcc__sram__n__ctrl" ],
+    [ "Frequency range of EHS XTAL", "group__rcc__frequency__range.html", "group__rcc__frequency__range" ],
+    [ "RCC source ready timeout", "group__rcc__rcc__timeout.html", "group__rcc__rcc__timeout" ],
+    [ "LVD reset/interrupt leve", "group__rcc__reset__interrupt__level.html", "group__rcc__reset__interrupt__level" ]
+];

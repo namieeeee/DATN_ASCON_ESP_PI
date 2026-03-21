@@ -1,0 +1,28 @@
+var group__dma__api__define =
+[
+    [ "LL_DMA_Init", "group__dma__api__init.html", "group__dma__api__init" ],
+    [ "LL_DMA_DeInit", "group__dma__api__deinit.html", "group__dma__api__deinit" ],
+    [ "LL_DMA_StructInit", "group__dma__api__struct__init.html", "group__dma__api__struct__init" ],
+    [ "LL_DMA_SetChannelPriority", "group__dma__api__set__channel__priority.html", "group__dma__api__set__channel__priority" ],
+    [ "LL_DMA_GetChannelPriority", "group__dma__api__get__channel__priority.html", "group__dma__api__get__channel__priority" ],
+    [ "LL_DMA_SetFIFOTH", "group__dma__api__set__fifo__th.html", "group__dma__api__set__fifo__th" ],
+    [ "LL_DMA_GetFIFOTH", "group__dma__api__get__fifo__th.html", "group__dma__api__get__fifo__th" ],
+    [ "LL_DMA_Enable_Sync", "group__dma__api__enable__sync.html", "group__dma__api__enable__sync" ],
+    [ "LL_DMA_Disable_Sync", "group__dma__api__disable__sync.html", "group__dma__api__disable__sync" ],
+    [ "LL_DMA_SetSRC_BurstSize", "group__dma__api__set__src__burst__size.html", "group__dma__api__set__src__burst__size" ],
+    [ "LL_DMA_GetSRC_BurstSize", "group__dma__api__get__src__burst__size.html", "group__dma__api__get__src__burst__size" ],
+    [ "LL_DMA_SetSRC_Request", "group__dma__api__set__src__request.html", "group__dma__api__set__src__request" ],
+    [ "LL_DMA_GetSRC_Request", "group__dma__api__get__src__request.html", "group__dma__api__get__src__request" ],
+    [ "LL_DMA_SetSRC_TransferWidth", "group__dma__api__set__src__transfer__width.html", "group__dma__api__set__src__transfer__width" ],
+    [ "LL_DMA_GetSRC_TransferWidth", "group__dma__api__get__src__transfer__width.html", "group__dma__api__get__src__transfer__width" ],
+    [ "LL_DMA_SetSRC_AddressMode", "group__dma__api__set__src__address__mode.html", "group__dma__api__set__src__address__mode" ],
+    [ "LL_DMA_GetSRC_AddressMode", "group__dma__api__get__src__address__mode.html", "group__dma__api__get__src__address__mode" ],
+    [ "LL_DMA_SetDST_Request", "group__dma__api__set__dst__request.html", "group__dma__api__set__dst__request" ],
+    [ "LL_DMA_GetDST_Request", "group__dma__api__get__dst__request.html", "group__dma__api__get__dst__request" ],
+    [ "LL_DMA_SetDST_TransferWidth", "group__dma__api__set__dst__transfer__width.html", "group__dma__api__set__dst__transfer__width" ],
+    [ "LL_DMA_GetDST_TransferWidth", "group__dma__api__get__dst__transfer__width.html", "group__dma__api__get__dst__transfer__width" ],
+    [ "LL_DMA_SetDST_AddressMode", "group__dma__api__set__dst__address__mode.html", "group__dma__api__set__dst__address__mode" ],
+    [ "LL_DMA_GetDST_AddressMode", "group__dma__api__get__dst__address__mode.html", "group__dma__api__get__dst__address__mode" ],
+    [ "LL_DMA_Enable_CH", "group__dma__api__enable__ch.html", "group__dma__api__enable__ch" ],
+    [ "LL_DMA_Disable_CH", "group__dma__api__disable__ch.html", "group__dma__api__disable__ch" ]
+];

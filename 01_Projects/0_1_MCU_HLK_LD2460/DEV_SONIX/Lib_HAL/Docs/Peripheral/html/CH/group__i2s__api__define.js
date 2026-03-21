@@ -1,0 +1,25 @@
+var group__i2s__api__define =
+[
+    [ "HAL_I2S_Init", "group__i2s__api__get__initialize.html", "group__i2s__api__get__initialize" ],
+    [ "HAL_I2S_DeInit", "group__i2s__api__deinitialize.html", "group__i2s__api__deinitialize" ],
+    [ "HAL_I2S_MspInit", "group__i2s__api__msp__init.html", "group__i2s__api__msp__init" ],
+    [ "HAL_I2S_MspDeInit", "group__i2s__api__msp__deinit.html", "group__i2s__api__msp__deinit" ],
+    [ "HAL_I2S_RegisterCallback", "group__i2s__api__register.html", "group__i2s__api__register" ],
+    [ "HAL_I2S_UnRegisterCallback", "group__i2s__api__unregister.html", "group__i2s__api__unregister" ],
+    [ "HAL_I2S_GetState", "group__i2s__api__get__state.html", "group__i2s__api__get__state" ],
+    [ "HAL_I2S_GetError", "group__i2s__api__get__error.html", "group__i2s__api__get__error" ],
+    [ "HAL_I2S_Transmit", "group__i2s__api__transmit.html", "group__i2s__api__transmit" ],
+    [ "HAL_I2S_Receive", "group__i2s__api__receive.html", "group__i2s__api__receive" ],
+    [ "HAL_I2S_Transmit_IT", "group__i2s__api__transmit__it.html", "group__i2s__api__transmit__it" ],
+    [ "HAL_I2S_Receive_IT", "group__i2s__api__receive__it.html", "group__i2s__api__receive__it" ],
+    [ "HAL_I2S_Stop", "group__i2s__api__stop.html", "group__i2s__api__stop" ],
+    [ "HAL_I2S_Transmit_DMA", "group__i2s__api__transmit__dma.html", "group__i2s__api__transmit__dma" ],
+    [ "HAL_I2S_Receive_DMA", "group__i2s__api__receive__dma.html", "group__i2s__api__receive__dma" ],
+    [ "HAL_I2S_DMAPause", "group__i2s__api__dma__pause.html", "group__i2s__api__dma__pause" ],
+    [ "HAL_I2S_DMAResume", "group__i2s__api__dma__resume.html", "group__i2s__api__dma__resume" ],
+    [ "HAL_I2S_DMAStop", "group__i2s__api__dma__stop.html", "group__i2s__api__dma__stop" ],
+    [ "HAL_I2S_IRQHandler", "group__i2s__api__irq__handler.html", "group__i2s__api__irq__handler" ],
+    [ "HAL_I2S_TxCpltCallback", "group__i2s__api__tx__cplt__cb.html", "group__i2s__api__tx__cplt__cb" ],
+    [ "HAL_I2S_RxCpltCallback", "group__i2s__api__rx__cplt__cb.html", "group__i2s__api__rx__cplt__cb" ],
+    [ "HAL_I2S_ErrorCallback", "group__i2s__api__error__cb.html", "group__i2s__api__error__cb" ]
+];

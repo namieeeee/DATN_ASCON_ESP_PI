@@ -1,0 +1,696 @@
+Dependencies for Project 'ADEV', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (.\main.c)(0x68FF64FA)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\Lib_HAL\Board -I ..\..\Lib_HAL\Com -I ..\..\Lib_HAL\Middlewares\Include -I ..\..\Lib_HAL\Peripherals\Include -I .\include -I .\LIB\hlk_ld2460 -I .\LIB\System -I .\LIB\Main_task -I .\LIB\Common-I.\RTE\_Target_1-ID:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSN34F780 -D_RTE_ -DUSE_HAL_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdarg.h)(0x5EC7840C)
+I (.\include\init.h)(0x68FB1E21)
+I (..\..\Lib_HAL\Peripherals\Include\hal_systick.h)(0x66431EE2)
+I (..\..\Lib_HAL\Com\sn34f78x_hal_def.h)(0x67720294)
+I (..\..\Lib_HAL\Com\sn34f78x_def.h)(0x67720294)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdbool.h)(0x5EC78406)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F780.h)(0x65AA527E)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\system_SN34F780.h)(0x64FEC828)
+I (..\..\Lib_HAL\Com\sn34f78x_hal.h)(0x67720294)
+I (.\include\sn34f78x_hal_conf.h)(0x68FAE8F2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_scu.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio.h)(0x6667A304)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio_ex.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_dma.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_crc.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_rcc.h)(0x680E7FF6)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F700_Def.h)(0x64FEC7E6)
+I (..\..\Lib_HAL\Peripherals\Include\hal_tpm.h)(0x6773D93E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_uart.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash.h)(0x6812031E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash_ex.h)(0x680F245C)
+I (.\LIB\Common\common.h)(0x68FF42A6)
+I (.\LIB\Main_task\main_task.h)(0x68FF42AC)
+F (.\src\sn34f78x_it.c)(0x68FF42A2)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\Lib_HAL\Board -I ..\..\Lib_HAL\Com -I ..\..\Lib_HAL\Middlewares\Include -I ..\..\Lib_HAL\Peripherals\Include -I .\include -I .\LIB\hlk_ld2460 -I .\LIB\System -I .\LIB\Main_task -I .\LIB\Common-I.\RTE\_Target_1-ID:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSN34F780 -D_RTE_ -DUSE_HAL_DRIVER-o .\objects\sn34f78x_it.o --omf_browse .\objects\sn34f78x_it.crf --depend .\objects\sn34f78x_it.d)
+I (.\include\init.h)(0x68FB1E21)
+I (..\..\Lib_HAL\Peripherals\Include\hal_systick.h)(0x66431EE2)
+I (..\..\Lib_HAL\Com\sn34f78x_hal_def.h)(0x67720294)
+I (..\..\Lib_HAL\Com\sn34f78x_def.h)(0x67720294)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdbool.h)(0x5EC78406)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdarg.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F780.h)(0x65AA527E)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\system_SN34F780.h)(0x64FEC828)
+I (..\..\Lib_HAL\Com\sn34f78x_hal.h)(0x67720294)
+I (.\include\sn34f78x_hal_conf.h)(0x68FAE8F2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_scu.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio.h)(0x6667A304)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio_ex.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_dma.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_crc.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_rcc.h)(0x680E7FF6)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F700_Def.h)(0x64FEC7E6)
+I (..\..\Lib_HAL\Peripherals\Include\hal_tpm.h)(0x6773D93E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_uart.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash.h)(0x6812031E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash_ex.h)(0x680F245C)
+F (.\src\sn34f78x_hal_msp.c)(0x68F49E21)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\Lib_HAL\Board -I ..\..\Lib_HAL\Com -I ..\..\Lib_HAL\Middlewares\Include -I ..\..\Lib_HAL\Peripherals\Include -I .\include -I .\LIB\hlk_ld2460 -I .\LIB\System -I .\LIB\Main_task -I .\LIB\Common-I.\RTE\_Target_1-ID:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSN34F780 -D_RTE_ -DUSE_HAL_DRIVER-o .\objects\sn34f78x_hal_msp.o --omf_browse .\objects\sn34f78x_hal_msp.crf --depend .\objects\sn34f78x_hal_msp.d)
+I (.\include\init.h)(0x68FB1E21)
+I (..\..\Lib_HAL\Peripherals\Include\hal_systick.h)(0x66431EE2)
+I (..\..\Lib_HAL\Com\sn34f78x_hal_def.h)(0x67720294)
+I (..\..\Lib_HAL\Com\sn34f78x_def.h)(0x67720294)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdbool.h)(0x5EC78406)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdarg.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F780.h)(0x65AA527E)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\system_SN34F780.h)(0x64FEC828)
+I (..\..\Lib_HAL\Com\sn34f78x_hal.h)(0x67720294)
+I (.\include\sn34f78x_hal_conf.h)(0x68FAE8F2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_scu.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio.h)(0x6667A304)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio_ex.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_dma.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_crc.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_rcc.h)(0x680E7FF6)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F700_Def.h)(0x64FEC7E6)
+I (..\..\Lib_HAL\Peripherals\Include\hal_tpm.h)(0x6773D93E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_uart.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash.h)(0x6812031E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash_ex.h)(0x680F245C)
+F (.\src\init.c)(0x68F49B14)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\Lib_HAL\Board -I ..\..\Lib_HAL\Com -I ..\..\Lib_HAL\Middlewares\Include -I ..\..\Lib_HAL\Peripherals\Include -I .\include -I .\LIB\hlk_ld2460 -I .\LIB\System -I .\LIB\Main_task -I .\LIB\Common-I.\RTE\_Target_1-ID:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSN34F780 -D_RTE_ -DUSE_HAL_DRIVER-o .\objects\init.o --omf_browse .\objects\init.crf --depend .\objects\init.d)
+I (.\include\init.h)(0x68FB1E21)
+I (..\..\Lib_HAL\Peripherals\Include\hal_systick.h)(0x66431EE2)
+I (..\..\Lib_HAL\Com\sn34f78x_hal_def.h)(0x67720294)
+I (..\..\Lib_HAL\Com\sn34f78x_def.h)(0x67720294)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdbool.h)(0x5EC78406)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdarg.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F780.h)(0x65AA527E)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\system_SN34F780.h)(0x64FEC828)
+I (..\..\Lib_HAL\Com\sn34f78x_hal.h)(0x67720294)
+I (.\include\sn34f78x_hal_conf.h)(0x68FAE8F2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_scu.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio.h)(0x6667A304)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio_ex.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_dma.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_crc.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_rcc.h)(0x680E7FF6)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F700_Def.h)(0x64FEC7E6)
+I (..\..\Lib_HAL\Peripherals\Include\hal_tpm.h)(0x6773D93E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_uart.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash.h)(0x6812031E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash_ex.h)(0x680F245C)
+F (.\include\init.h)(0x68FB1E21)()
+F (.\include\sn34f78x_hal_conf.h)(0x68FAE8F2)()
+F (..\..\Lib_HAL\Peripherals\Source\sn34f78x_hal.c)(0x67720296)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\Lib_HAL\Board -I ..\..\Lib_HAL\Com -I ..\..\Lib_HAL\Middlewares\Include -I ..\..\Lib_HAL\Peripherals\Include -I .\include -I .\LIB\hlk_ld2460 -I .\LIB\System -I .\LIB\Main_task -I .\LIB\Common-I.\RTE\_Target_1-ID:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSN34F780 -D_RTE_ -DUSE_HAL_DRIVER-o .\objects\sn34f78x_hal.o --omf_browse .\objects\sn34f78x_hal.crf --depend .\objects\sn34f78x_hal.d)
+I (..\..\Lib_HAL\Com\sn34f78x_hal.h)(0x67720294)
+I (.\include\sn34f78x_hal_conf.h)(0x68FAE8F2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_systick.h)(0x66431EE2)
+I (..\..\Lib_HAL\Com\sn34f78x_hal_def.h)(0x67720294)
+I (..\..\Lib_HAL\Com\sn34f78x_def.h)(0x67720294)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdbool.h)(0x5EC78406)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdarg.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F780.h)(0x65AA527E)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\system_SN34F780.h)(0x64FEC828)
+I (..\..\Lib_HAL\Peripherals\Include\hal_scu.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio.h)(0x6667A304)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio_ex.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_dma.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_crc.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_rcc.h)(0x680E7FF6)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F700_Def.h)(0x64FEC7E6)
+I (..\..\Lib_HAL\Peripherals\Include\hal_tpm.h)(0x6773D93E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_uart.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash.h)(0x6812031E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash_ex.h)(0x680F245C)
+I (..\..\Lib_HAL\Board\sn34f78x_board.c)(0x6773D93E)
+I (..\..\Lib_HAL\Board\sn34f78x_board.h)(0x6670877C)
+I (..\..\Lib_HAL\Com\retarget_io.c)(0x66431EDA)
+F (..\..\Lib_HAL\Peripherals\Source\sn34f78x_hal_rcc.c)(0x680E7FF6)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\Lib_HAL\Board -I ..\..\Lib_HAL\Com -I ..\..\Lib_HAL\Middlewares\Include -I ..\..\Lib_HAL\Peripherals\Include -I .\include -I .\LIB\hlk_ld2460 -I .\LIB\System -I .\LIB\Main_task -I .\LIB\Common-I.\RTE\_Target_1-ID:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSN34F780 -D_RTE_ -DUSE_HAL_DRIVER-o .\objects\sn34f78x_hal_rcc.o --omf_browse .\objects\sn34f78x_hal_rcc.crf --depend .\objects\sn34f78x_hal_rcc.d)
+I (..\..\Lib_HAL\Peripherals\Source\sn34f78x_hal_rcc.h)(0x680E7FF6)
+I (..\..\Lib_HAL\Com\sn34f78x_hal.h)(0x67720294)
+I (.\include\sn34f78x_hal_conf.h)(0x68FAE8F2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_systick.h)(0x66431EE2)
+I (..\..\Lib_HAL\Com\sn34f78x_hal_def.h)(0x67720294)
+I (..\..\Lib_HAL\Com\sn34f78x_def.h)(0x67720294)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdbool.h)(0x5EC78406)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdarg.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F780.h)(0x65AA527E)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\system_SN34F780.h)(0x64FEC828)
+I (..\..\Lib_HAL\Peripherals\Include\hal_scu.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio.h)(0x6667A304)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio_ex.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_dma.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_crc.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_rcc.h)(0x680E7FF6)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F700_Def.h)(0x64FEC7E6)
+I (..\..\Lib_HAL\Peripherals\Include\hal_tpm.h)(0x6773D93E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_uart.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash.h)(0x6812031E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash_ex.h)(0x680F245C)
+F (..\..\Lib_HAL\Peripherals\Source\sn34f78x_hal_gpio.c)(0x66431EE2)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\Lib_HAL\Board -I ..\..\Lib_HAL\Com -I ..\..\Lib_HAL\Middlewares\Include -I ..\..\Lib_HAL\Peripherals\Include -I .\include -I .\LIB\hlk_ld2460 -I .\LIB\System -I .\LIB\Main_task -I .\LIB\Common-I.\RTE\_Target_1-ID:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSN34F780 -D_RTE_ -DUSE_HAL_DRIVER-o .\objects\sn34f78x_hal_gpio.o --omf_browse .\objects\sn34f78x_hal_gpio.crf --depend .\objects\sn34f78x_hal_gpio.d)
+I (..\..\Lib_HAL\Peripherals\Source\sn34f78x_hal_gpio.h)(0x67720296)
+I (..\..\Lib_HAL\Com\sn34f78x_hal.h)(0x67720294)
+I (.\include\sn34f78x_hal_conf.h)(0x68FAE8F2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_systick.h)(0x66431EE2)
+I (..\..\Lib_HAL\Com\sn34f78x_hal_def.h)(0x67720294)
+I (..\..\Lib_HAL\Com\sn34f78x_def.h)(0x67720294)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdbool.h)(0x5EC78406)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdarg.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F780.h)(0x65AA527E)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\system_SN34F780.h)(0x64FEC828)
+I (..\..\Lib_HAL\Peripherals\Include\hal_scu.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio.h)(0x6667A304)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio_ex.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_dma.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_crc.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_rcc.h)(0x680E7FF6)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F700_Def.h)(0x64FEC7E6)
+I (..\..\Lib_HAL\Peripherals\Include\hal_tpm.h)(0x6773D93E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_uart.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash.h)(0x6812031E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash_ex.h)(0x680F245C)
+F (..\..\Lib_HAL\Peripherals\Source\sn34f78x_hal_flash.c)(0x6845DEF8)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\Lib_HAL\Board -I ..\..\Lib_HAL\Com -I ..\..\Lib_HAL\Middlewares\Include -I ..\..\Lib_HAL\Peripherals\Include -I .\include -I .\LIB\hlk_ld2460 -I .\LIB\System -I .\LIB\Main_task -I .\LIB\Common-I.\RTE\_Target_1-ID:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSN34F780 -D_RTE_ -DUSE_HAL_DRIVER-o .\objects\sn34f78x_hal_flash.o --omf_browse .\objects\sn34f78x_hal_flash.crf --depend .\objects\sn34f78x_hal_flash.d)
+I (..\..\Lib_HAL\Peripherals\Source\sn34f78x_hal_flash.h)(0x6812031E)
+I (..\..\Lib_HAL\Com\sn34f78x_hal.h)(0x67720294)
+I (.\include\sn34f78x_hal_conf.h)(0x68FAE8F2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_systick.h)(0x66431EE2)
+I (..\..\Lib_HAL\Com\sn34f78x_hal_def.h)(0x67720294)
+I (..\..\Lib_HAL\Com\sn34f78x_def.h)(0x67720294)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdbool.h)(0x5EC78406)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdarg.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F780.h)(0x65AA527E)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\system_SN34F780.h)(0x64FEC828)
+I (..\..\Lib_HAL\Peripherals\Include\hal_scu.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio.h)(0x6667A304)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio_ex.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_dma.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_crc.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_rcc.h)(0x680E7FF6)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F700_Def.h)(0x64FEC7E6)
+I (..\..\Lib_HAL\Peripherals\Include\hal_tpm.h)(0x6773D93E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_uart.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash.h)(0x6812031E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash_ex.h)(0x680F245C)
+F (..\..\Lib_HAL\Peripherals\Source\sn34f78x_hal_flash_ex.c)(0x6845DEF8)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\Lib_HAL\Board -I ..\..\Lib_HAL\Com -I ..\..\Lib_HAL\Middlewares\Include -I ..\..\Lib_HAL\Peripherals\Include -I .\include -I .\LIB\hlk_ld2460 -I .\LIB\System -I .\LIB\Main_task -I .\LIB\Common-I.\RTE\_Target_1-ID:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSN34F780 -D_RTE_ -DUSE_HAL_DRIVER-o .\objects\sn34f78x_hal_flash_ex.o --omf_browse .\objects\sn34f78x_hal_flash_ex.crf --depend .\objects\sn34f78x_hal_flash_ex.d)
+I (..\..\Lib_HAL\Com\sn34f78x_hal.h)(0x67720294)
+I (.\include\sn34f78x_hal_conf.h)(0x68FAE8F2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_systick.h)(0x66431EE2)
+I (..\..\Lib_HAL\Com\sn34f78x_hal_def.h)(0x67720294)
+I (..\..\Lib_HAL\Com\sn34f78x_def.h)(0x67720294)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdbool.h)(0x5EC78406)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdarg.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F780.h)(0x65AA527E)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\system_SN34F780.h)(0x64FEC828)
+I (..\..\Lib_HAL\Peripherals\Include\hal_scu.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio.h)(0x6667A304)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio_ex.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_dma.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_crc.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_rcc.h)(0x680E7FF6)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F700_Def.h)(0x64FEC7E6)
+I (..\..\Lib_HAL\Peripherals\Include\hal_tpm.h)(0x6773D93E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_uart.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash.h)(0x6812031E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash_ex.h)(0x680F245C)
+I (..\..\Lib_HAL\Peripherals\Source\sn34f78x_hal_flash.h)(0x6812031E)
+F (..\..\Lib_HAL\Peripherals\Source\sn34f78x_hal_systick.c)(0x66431EE2)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\Lib_HAL\Board -I ..\..\Lib_HAL\Com -I ..\..\Lib_HAL\Middlewares\Include -I ..\..\Lib_HAL\Peripherals\Include -I .\include -I .\LIB\hlk_ld2460 -I .\LIB\System -I .\LIB\Main_task -I .\LIB\Common-I.\RTE\_Target_1-ID:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSN34F780 -D_RTE_ -DUSE_HAL_DRIVER-o .\objects\sn34f78x_hal_systick.o --omf_browse .\objects\sn34f78x_hal_systick.crf --depend .\objects\sn34f78x_hal_systick.d)
+I (..\..\Lib_HAL\Peripherals\Source\sn34f78x_hal_systick.h)(0x67720296)
+I (..\..\Lib_HAL\Com\sn34f78x_hal.h)(0x67720294)
+I (.\include\sn34f78x_hal_conf.h)(0x68FAE8F2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_systick.h)(0x66431EE2)
+I (..\..\Lib_HAL\Com\sn34f78x_hal_def.h)(0x67720294)
+I (..\..\Lib_HAL\Com\sn34f78x_def.h)(0x67720294)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdbool.h)(0x5EC78406)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdarg.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F780.h)(0x65AA527E)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\system_SN34F780.h)(0x64FEC828)
+I (..\..\Lib_HAL\Peripherals\Include\hal_scu.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio.h)(0x6667A304)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio_ex.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_dma.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_crc.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_rcc.h)(0x680E7FF6)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F700_Def.h)(0x64FEC7E6)
+I (..\..\Lib_HAL\Peripherals\Include\hal_tpm.h)(0x6773D93E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_uart.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash.h)(0x6812031E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash_ex.h)(0x680F245C)
+F (..\..\Lib_HAL\Peripherals\Source\sn34f78x_hal_assert.c)(0x67720296)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\Lib_HAL\Board -I ..\..\Lib_HAL\Com -I ..\..\Lib_HAL\Middlewares\Include -I ..\..\Lib_HAL\Peripherals\Include -I .\include -I .\LIB\hlk_ld2460 -I .\LIB\System -I .\LIB\Main_task -I .\LIB\Common-I.\RTE\_Target_1-ID:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSN34F780 -D_RTE_ -DUSE_HAL_DRIVER-o .\objects\sn34f78x_hal_assert.o --omf_browse .\objects\sn34f78x_hal_assert.crf --depend .\objects\sn34f78x_hal_assert.d)
+I (..\..\Lib_HAL\Com\sn34f78x_hal.h)(0x67720294)
+I (.\include\sn34f78x_hal_conf.h)(0x68FAE8F2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_systick.h)(0x66431EE2)
+I (..\..\Lib_HAL\Com\sn34f78x_hal_def.h)(0x67720294)
+I (..\..\Lib_HAL\Com\sn34f78x_def.h)(0x67720294)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdbool.h)(0x5EC78406)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdarg.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F780.h)(0x65AA527E)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\system_SN34F780.h)(0x64FEC828)
+I (..\..\Lib_HAL\Peripherals\Include\hal_scu.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio.h)(0x6667A304)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio_ex.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_dma.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_crc.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_rcc.h)(0x680E7FF6)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F700_Def.h)(0x64FEC7E6)
+I (..\..\Lib_HAL\Peripherals\Include\hal_tpm.h)(0x6773D93E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_uart.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash.h)(0x6812031E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash_ex.h)(0x680F245C)
+F (..\..\Lib_HAL\Peripherals\Source\sn34f78x_hal_scu.c)(0x66431EE2)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\Lib_HAL\Board -I ..\..\Lib_HAL\Com -I ..\..\Lib_HAL\Middlewares\Include -I ..\..\Lib_HAL\Peripherals\Include -I .\include -I .\LIB\hlk_ld2460 -I .\LIB\System -I .\LIB\Main_task -I .\LIB\Common-I.\RTE\_Target_1-ID:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSN34F780 -D_RTE_ -DUSE_HAL_DRIVER-o .\objects\sn34f78x_hal_scu.o --omf_browse .\objects\sn34f78x_hal_scu.crf --depend .\objects\sn34f78x_hal_scu.d)
+I (..\..\Lib_HAL\Peripherals\Source\sn34f78x_hal_scu.h)(0x67720296)
+I (..\..\Lib_HAL\Com\sn34f78x_hal.h)(0x67720294)
+I (.\include\sn34f78x_hal_conf.h)(0x68FAE8F2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_systick.h)(0x66431EE2)
+I (..\..\Lib_HAL\Com\sn34f78x_hal_def.h)(0x67720294)
+I (..\..\Lib_HAL\Com\sn34f78x_def.h)(0x67720294)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdbool.h)(0x5EC78406)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdarg.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F780.h)(0x65AA527E)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\system_SN34F780.h)(0x64FEC828)
+I (..\..\Lib_HAL\Peripherals\Include\hal_scu.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio.h)(0x6667A304)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio_ex.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_dma.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_crc.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_rcc.h)(0x680E7FF6)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F700_Def.h)(0x64FEC7E6)
+I (..\..\Lib_HAL\Peripherals\Include\hal_tpm.h)(0x6773D93E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_uart.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash.h)(0x6812031E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash_ex.h)(0x680F245C)
+F (..\..\Lib_HAL\Peripherals\Source\sn34f78x_hal_uart.c)(0x67D3E576)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\Lib_HAL\Board -I ..\..\Lib_HAL\Com -I ..\..\Lib_HAL\Middlewares\Include -I ..\..\Lib_HAL\Peripherals\Include -I .\include -I .\LIB\hlk_ld2460 -I .\LIB\System -I .\LIB\Main_task -I .\LIB\Common-I.\RTE\_Target_1-ID:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSN34F780 -D_RTE_ -DUSE_HAL_DRIVER-o .\objects\sn34f78x_hal_uart.o --omf_browse .\objects\sn34f78x_hal_uart.crf --depend .\objects\sn34f78x_hal_uart.d)
+I (..\..\Lib_HAL\Peripherals\Source\sn34f78x_hal_uart.h)(0x677212E6)
+I (..\..\Lib_HAL\Com\sn34f78x_hal.h)(0x67720294)
+I (.\include\sn34f78x_hal_conf.h)(0x68FAE8F2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_systick.h)(0x66431EE2)
+I (..\..\Lib_HAL\Com\sn34f78x_hal_def.h)(0x67720294)
+I (..\..\Lib_HAL\Com\sn34f78x_def.h)(0x67720294)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdbool.h)(0x5EC78406)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdarg.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F780.h)(0x65AA527E)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\system_SN34F780.h)(0x64FEC828)
+I (..\..\Lib_HAL\Peripherals\Include\hal_scu.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio.h)(0x6667A304)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio_ex.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_dma.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_crc.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_rcc.h)(0x680E7FF6)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F700_Def.h)(0x64FEC7E6)
+I (..\..\Lib_HAL\Peripherals\Include\hal_tpm.h)(0x6773D93E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_uart.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash.h)(0x6812031E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash_ex.h)(0x680F245C)
+F (..\..\Lib_HAL\Peripherals\Source\sn34f78x_hal_uart.h)(0x677212E6)()
+F (..\..\Lib_HAL\Peripherals\Source\sn34f78x_hal_tpm.c)(0x68E240F8)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\Lib_HAL\Board -I ..\..\Lib_HAL\Com -I ..\..\Lib_HAL\Middlewares\Include -I ..\..\Lib_HAL\Peripherals\Include -I .\include -I .\LIB\hlk_ld2460 -I .\LIB\System -I .\LIB\Main_task -I .\LIB\Common-I.\RTE\_Target_1-ID:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSN34F780 -D_RTE_ -DUSE_HAL_DRIVER-o .\objects\sn34f78x_hal_tpm.o --omf_browse .\objects\sn34f78x_hal_tpm.crf --depend .\objects\sn34f78x_hal_tpm.d)
+I (..\..\Lib_HAL\Peripherals\Source\sn34f78x_hal_tpm.h)(0x68E28022)
+I (..\..\Lib_HAL\Com\sn34f78x_hal.h)(0x67720294)
+I (.\include\sn34f78x_hal_conf.h)(0x68FAE8F2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_systick.h)(0x66431EE2)
+I (..\..\Lib_HAL\Com\sn34f78x_hal_def.h)(0x67720294)
+I (..\..\Lib_HAL\Com\sn34f78x_def.h)(0x67720294)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdbool.h)(0x5EC78406)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdarg.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F780.h)(0x65AA527E)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\system_SN34F780.h)(0x64FEC828)
+I (..\..\Lib_HAL\Peripherals\Include\hal_scu.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio.h)(0x6667A304)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio_ex.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_dma.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_crc.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_rcc.h)(0x680E7FF6)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F700_Def.h)(0x64FEC7E6)
+I (..\..\Lib_HAL\Peripherals\Include\hal_tpm.h)(0x6773D93E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_uart.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash.h)(0x6812031E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash_ex.h)(0x680F245C)
+F (..\..\Lib_HAL\Peripherals\Source\sn34f78x_hal_crc.c)(0x67720296)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\Lib_HAL\Board -I ..\..\Lib_HAL\Com -I ..\..\Lib_HAL\Middlewares\Include -I ..\..\Lib_HAL\Peripherals\Include -I .\include -I .\LIB\hlk_ld2460 -I .\LIB\System -I .\LIB\Main_task -I .\LIB\Common-I.\RTE\_Target_1-ID:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSN34F780 -D_RTE_ -DUSE_HAL_DRIVER-o .\objects\sn34f78x_hal_crc.o --omf_browse .\objects\sn34f78x_hal_crc.crf --depend .\objects\sn34f78x_hal_crc.d)
+I (..\..\Lib_HAL\Peripherals\Source\sn34f78x_hal_crc.h)(0x67720296)
+I (..\..\Lib_HAL\Com\sn34f78x_hal.h)(0x67720294)
+I (.\include\sn34f78x_hal_conf.h)(0x68FAE8F2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_systick.h)(0x66431EE2)
+I (..\..\Lib_HAL\Com\sn34f78x_hal_def.h)(0x67720294)
+I (..\..\Lib_HAL\Com\sn34f78x_def.h)(0x67720294)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdbool.h)(0x5EC78406)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdarg.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F780.h)(0x65AA527E)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\system_SN34F780.h)(0x64FEC828)
+I (..\..\Lib_HAL\Peripherals\Include\hal_scu.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio.h)(0x6667A304)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio_ex.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_dma.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_crc.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_rcc.h)(0x680E7FF6)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F700_Def.h)(0x64FEC7E6)
+I (..\..\Lib_HAL\Peripherals\Include\hal_tpm.h)(0x6773D93E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_uart.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash.h)(0x6812031E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash_ex.h)(0x680F245C)
+F (..\..\Lib_HAL\Peripherals\Source\sn34f78x_hal_dma.c)(0x68F35139)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\Lib_HAL\Board -I ..\..\Lib_HAL\Com -I ..\..\Lib_HAL\Middlewares\Include -I ..\..\Lib_HAL\Peripherals\Include -I .\include -I .\LIB\hlk_ld2460 -I .\LIB\System -I .\LIB\Main_task -I .\LIB\Common-I.\RTE\_Target_1-ID:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSN34F780 -D_RTE_ -DUSE_HAL_DRIVER-o .\objects\sn34f78x_hal_dma.o --omf_browse .\objects\sn34f78x_hal_dma.crf --depend .\objects\sn34f78x_hal_dma.d)
+I (..\..\Lib_HAL\Peripherals\Source\sn34f78x_hal_dma.h)(0x67720296)
+I (..\..\Lib_HAL\Com\sn34f78x_hal.h)(0x67720294)
+I (.\include\sn34f78x_hal_conf.h)(0x68FAE8F2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_systick.h)(0x66431EE2)
+I (..\..\Lib_HAL\Com\sn34f78x_hal_def.h)(0x67720294)
+I (..\..\Lib_HAL\Com\sn34f78x_def.h)(0x67720294)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdbool.h)(0x5EC78406)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdarg.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F780.h)(0x65AA527E)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\system_SN34F780.h)(0x64FEC828)
+I (..\..\Lib_HAL\Peripherals\Include\hal_scu.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio.h)(0x6667A304)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio_ex.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_dma.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_crc.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_rcc.h)(0x680E7FF6)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F700_Def.h)(0x64FEC7E6)
+I (..\..\Lib_HAL\Peripherals\Include\hal_tpm.h)(0x6773D93E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_uart.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash.h)(0x6812031E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash_ex.h)(0x680F245C)
+F (.\LIB\Common\common.c)(0x68FF42A1)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\Lib_HAL\Board -I ..\..\Lib_HAL\Com -I ..\..\Lib_HAL\Middlewares\Include -I ..\..\Lib_HAL\Peripherals\Include -I .\include -I .\LIB\hlk_ld2460 -I .\LIB\System -I .\LIB\Main_task -I .\LIB\Common-I.\RTE\_Target_1-ID:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSN34F780 -D_RTE_ -DUSE_HAL_DRIVER-o .\objects\common.o --omf_browse .\objects\common.crf --depend .\objects\common.d)
+I (LIB\Common\common.h)(0x68FF42A6)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (.\include\init.h)(0x68FB1E21)
+I (..\..\Lib_HAL\Peripherals\Include\hal_systick.h)(0x66431EE2)
+I (..\..\Lib_HAL\Com\sn34f78x_hal_def.h)(0x67720294)
+I (..\..\Lib_HAL\Com\sn34f78x_def.h)(0x67720294)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdbool.h)(0x5EC78406)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdarg.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F780.h)(0x65AA527E)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\system_SN34F780.h)(0x64FEC828)
+I (..\..\Lib_HAL\Com\sn34f78x_hal.h)(0x67720294)
+I (.\include\sn34f78x_hal_conf.h)(0x68FAE8F2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_scu.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio.h)(0x6667A304)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio_ex.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_dma.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_crc.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_rcc.h)(0x680E7FF6)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F700_Def.h)(0x64FEC7E6)
+I (..\..\Lib_HAL\Peripherals\Include\hal_tpm.h)(0x6773D93E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_uart.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash.h)(0x6812031E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash_ex.h)(0x680F245C)
+F (.\LIB\Common\common.h)(0x68FF42A6)()
+F (.\LIB\Main_task\main_task.c)(0x68FF66F2)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\Lib_HAL\Board -I ..\..\Lib_HAL\Com -I ..\..\Lib_HAL\Middlewares\Include -I ..\..\Lib_HAL\Peripherals\Include -I .\include -I .\LIB\hlk_ld2460 -I .\LIB\System -I .\LIB\Main_task -I .\LIB\Common-I.\RTE\_Target_1-ID:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSN34F780 -D_RTE_ -DUSE_HAL_DRIVER-o .\objects\main_task.o --omf_browse .\objects\main_task.crf --depend .\objects\main_task.d)
+I (LIB\Main_task\main_task.h)(0x68FF42AC)
+I (.\LIB\Common\common.h)(0x68FF42A6)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (.\include\init.h)(0x68FB1E21)
+I (..\..\Lib_HAL\Peripherals\Include\hal_systick.h)(0x66431EE2)
+I (..\..\Lib_HAL\Com\sn34f78x_hal_def.h)(0x67720294)
+I (..\..\Lib_HAL\Com\sn34f78x_def.h)(0x67720294)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdbool.h)(0x5EC78406)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdarg.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F780.h)(0x65AA527E)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\system_SN34F780.h)(0x64FEC828)
+I (..\..\Lib_HAL\Com\sn34f78x_hal.h)(0x67720294)
+I (.\include\sn34f78x_hal_conf.h)(0x68FAE8F2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_scu.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio.h)(0x6667A304)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio_ex.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_dma.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_crc.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_rcc.h)(0x680E7FF6)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F700_Def.h)(0x64FEC7E6)
+I (..\..\Lib_HAL\Peripherals\Include\hal_tpm.h)(0x6773D93E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_uart.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash.h)(0x6812031E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash_ex.h)(0x680F245C)
+I (LIB\Main_task\System_Management.h)(0x68FF4333)
+F (.\LIB\Main_task\main_task.h)(0x68FF42AC)()
+F (.\LIB\Main_task\System_Management.c)(0x68FF4441)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\Lib_HAL\Board -I ..\..\Lib_HAL\Com -I ..\..\Lib_HAL\Middlewares\Include -I ..\..\Lib_HAL\Peripherals\Include -I .\include -I .\LIB\hlk_ld2460 -I .\LIB\System -I .\LIB\Main_task -I .\LIB\Common-I.\RTE\_Target_1-ID:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSN34F780 -D_RTE_ -DUSE_HAL_DRIVER-o .\objects\system_management.o --omf_browse .\objects\system_management.crf --depend .\objects\system_management.d)
+I (LIB\Main_task\System_Management.h)(0x68FF4333)
+I (.\LIB\Common\common.h)(0x68FF42A6)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (.\include\init.h)(0x68FB1E21)
+I (..\..\Lib_HAL\Peripherals\Include\hal_systick.h)(0x66431EE2)
+I (..\..\Lib_HAL\Com\sn34f78x_hal_def.h)(0x67720294)
+I (..\..\Lib_HAL\Com\sn34f78x_def.h)(0x67720294)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdbool.h)(0x5EC78406)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdarg.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F780.h)(0x65AA527E)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\system_SN34F780.h)(0x64FEC828)
+I (..\..\Lib_HAL\Com\sn34f78x_hal.h)(0x67720294)
+I (.\include\sn34f78x_hal_conf.h)(0x68FAE8F2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_scu.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio.h)(0x6667A304)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio_ex.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_dma.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_crc.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_rcc.h)(0x680E7FF6)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F700_Def.h)(0x64FEC7E6)
+I (..\..\Lib_HAL\Peripherals\Include\hal_tpm.h)(0x6773D93E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_uart.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash.h)(0x6812031E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash_ex.h)(0x680F245C)
+F (.\LIB\Main_task\System_Management.h)(0x68FF4333)()
+F (.\LIB\hlk_ld2460\hlk_ld2460.c)(0x68FB9604)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\Lib_HAL\Board -I ..\..\Lib_HAL\Com -I ..\..\Lib_HAL\Middlewares\Include -I ..\..\Lib_HAL\Peripherals\Include -I .\include -I .\LIB\hlk_ld2460 -I .\LIB\System -I .\LIB\Main_task -I .\LIB\Common-I.\RTE\_Target_1-ID:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSN34F780 -D_RTE_ -DUSE_HAL_DRIVER-o .\objects\hlk_ld2460.o --omf_browse .\objects\hlk_ld2460.crf --depend .\objects\hlk_ld2460.d)
+I (LIB\hlk_ld2460\hlk_ld2460.h)(0x68FB95F3)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdbool.h)(0x5EC78406)
+I (.\include\init.h)(0x68FB1E21)
+I (..\..\Lib_HAL\Peripherals\Include\hal_systick.h)(0x66431EE2)
+I (..\..\Lib_HAL\Com\sn34f78x_hal_def.h)(0x67720294)
+I (..\..\Lib_HAL\Com\sn34f78x_def.h)(0x67720294)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdarg.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F780.h)(0x65AA527E)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\system_SN34F780.h)(0x64FEC828)
+I (..\..\Lib_HAL\Com\sn34f78x_hal.h)(0x67720294)
+I (.\include\sn34f78x_hal_conf.h)(0x68FAE8F2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_scu.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio.h)(0x6667A304)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio_ex.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_dma.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_crc.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_rcc.h)(0x680E7FF6)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F700_Def.h)(0x64FEC7E6)
+I (..\..\Lib_HAL\Peripherals\Include\hal_tpm.h)(0x6773D93E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_uart.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash.h)(0x6812031E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash_ex.h)(0x680F245C)
+F (.\LIB\hlk_ld2460\hlk_ld2460.h)(0x68FB95F3)()
+F (.\LIB\cbuffer\cbuffer.c)(0x68F8E678)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\Lib_HAL\Board -I ..\..\Lib_HAL\Com -I ..\..\Lib_HAL\Middlewares\Include -I ..\..\Lib_HAL\Peripherals\Include -I .\include -I .\LIB\hlk_ld2460 -I .\LIB\System -I .\LIB\Main_task -I .\LIB\Common-I.\RTE\_Target_1-ID:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSN34F780 -D_RTE_ -DUSE_HAL_DRIVER-o .\objects\cbuffer.o --omf_browse .\objects\cbuffer.crf --depend .\objects\cbuffer.d)
+I (LIB\cbuffer\cbuffer.h)(0x68F8E665)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\string.h)(0x5EC78414)
+F (.\LIB\cbuffer\cbuffer.h)(0x68F8E665)()
+F (RTE\Device\SN34F788F\startup_SN34F780.s)(0x665E7DA2)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -I.\RTE\_Target_1-ID:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include--pd "__UVISION_VERSION SETA 531" --pd "_RTE_ SETA 1" --pd "SN34F780 SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_sn34f780.lst --xref -o .\objects\startup_sn34f780.o --depend .\objects\startup_sn34f780.d)
+F (RTE\Device\SN34F788F\system_SN34F780.c)(0x651B9880)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\Lib_HAL\Board -I ..\..\Lib_HAL\Com -I ..\..\Lib_HAL\Middlewares\Include -I ..\..\Lib_HAL\Peripherals\Include -I .\include -I .\LIB\hlk_ld2460 -I .\LIB\System -I .\LIB\Main_task -I .\LIB\Common-I.\RTE\_Target_1-ID:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSN34F780 -D_RTE_ -DUSE_HAL_DRIVER-o .\objects\system_sn34f780.o --omf_browse .\objects\system_sn34f780.crf --depend .\objects\system_sn34f780.d)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F780.h)(0x65AA527E)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\system_SN34F780.h)(0x64FEC828)
+I (..\..\Lib_HAL\Com\sn34f78x_hal.h)(0x67720294)
+I (.\include\sn34f78x_hal_conf.h)(0x68FAE8F2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_systick.h)(0x66431EE2)
+I (..\..\Lib_HAL\Com\sn34f78x_hal_def.h)(0x67720294)
+I (..\..\Lib_HAL\Com\sn34f78x_def.h)(0x67720294)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdbool.h)(0x5EC78406)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (D:\APP\Kelic_Arm_V5\ARM\ARMCC\include\stdarg.h)(0x5EC7840C)
+I (..\..\Lib_HAL\Peripherals\Include\hal_scu.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio.h)(0x6667A304)
+I (..\..\Lib_HAL\Peripherals\Include\hal_gpio_ex.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_dma.h)(0x67720296)
+I (..\..\Lib_HAL\Peripherals\Include\hal_crc.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_rcc.h)(0x680E7FF6)
+I (D:\APP\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F700_Def.h)(0x64FEC7E6)
+I (..\..\Lib_HAL\Peripherals\Include\hal_tpm.h)(0x6773D93E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_uart.h)(0x66431EE2)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash.h)(0x6812031E)
+I (..\..\Lib_HAL\Peripherals\Include\hal_flash_ex.h)(0x680F245C)

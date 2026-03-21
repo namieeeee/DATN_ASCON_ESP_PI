@@ -1,0 +1,9 @@
+
+
+# Load bootloader symbols
+set confirm off
+    add-symbol-file D:/04_University/HK_225/225_DATN_KTDT/Code_Esp/Node_IOT_V1/build/bootloader/bootloader.elf
+set confirm on
+
+# Load application symbols
+file D:/04_University/HK_225/225_DATN_KTDT/Code_Esp/Node_IOT_V1/build/app-template.elf

@@ -1,0 +1,25 @@
+var group__hal__common__rte__config =
+[
+    [ "SysTick Driver Config", "group__hal__common__rte__config__SYSTICK.html", "group__hal__common__rte__config__SYSTICK" ],
+    [ "System Control Unit(SCU) Config", "group__hal__common__rte__config__scu.html", null ],
+    [ "GPIO Driver Config", "group__hal__common__rte__config__gpio.html", null ],
+    [ "RCC Driver Config", "group__hal__common__rte__config__rcc.html", "group__hal__common__rte__config__rcc" ],
+    [ "DMA Driver Config", "group__hal__common__rte__config__dma.html", "group__hal__common__rte__config__dma" ],
+    [ "CAN Driver Config", "group__hal__common__rte__config__can.html", "group__hal__common__rte__config__can" ],
+    [ "CRC Driver Config", "group__hal__common__rte__config__crc.html", "group__hal__common__rte__config__crc" ],
+    [ "PWR Driver Config", "group__hal__common__rte__config__pwr.html", "group__hal__common__rte__config__pwr" ],
+    [ "IWDG Driver Config", "group__hal__common__rte__config__iwdg.html", "group__hal__common__rte__config__iwdg" ],
+    [ "WWDG Driver Config", "group__hal__common__rte__config__wwdg.html", "group__hal__common__rte__config__wwdg" ],
+    [ "ADC Driver Config", "group__hal__common__rte__config__adc.html", "group__hal__common__rte__config__adc" ],
+    [ "TPM Driver Config", "group__hal__common__rte__config__tpm.html", "group__hal__common__rte__config__tpm" ],
+    [ "SPI Driver Config", "group__hal__common__rte__config__spi.html", "group__hal__common__rte__config__spi" ],
+    [ "UART Driver Config", "group__hal__common__rte__config__uart.html", "group__hal__common__rte__config__uart" ],
+    [ "FMC Driver Config", "group__hal__common__rte__config__flash.html", "group__hal__common__rte__config__flash" ],
+    [ "SD Driver Config", "group__hal__common__rte__config__sd.html", "group__hal__common__rte__config__sd" ],
+    [ "RTC Driver Config", "group__hal__common__rte__config__rtc.html", "group__hal__common__rte__config__rtc" ],
+    [ "I2C Driver Config", "group__hal__common__rte__config__i2c.html", "group__hal__common__rte__config__i2c" ],
+    [ "I2S Driver Config", "group__hal__common__rte__config__i2s.html", "group__hal__common__rte__config__i2s" ],
+    [ "LCM Driver Config", "group__hal__common__rte__config__lcm.html", "group__hal__common__rte__config__lcm" ],
+    [ "ETH Driver Config", "group__hal__common__rte__config__eth.html", "group__hal__common__rte__config__eth" ],
+    [ "Assert Config", "group__hal__common__rte__config__assert.html", null ]
+];

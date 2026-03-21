@@ -1,0 +1,25 @@
+var group__rcc__apb1__peri__rst =
+[
+    [ "__HAL_RCC_ADC0_RESET", "group__rcc__apb1__peri__rst.html#ga4b10f695f84bb6996c01125233590a40", null ],
+    [ "__HAL_RCC_SSP0_RESET", "group__rcc__apb1__peri__rst.html#ga97d7746c33a054f254d2c66fa3f4d3fa", null ],
+    [ "__HAL_RCC_SSP1_RESET", "group__rcc__apb1__peri__rst.html#ga867456a9d15255bd53bca2ea0b1e14cf", null ],
+    [ "__HAL_RCC_SSP2_RESET", "group__rcc__apb1__peri__rst.html#ga6ae38b1091070cb283c78ab38490b252", null ],
+    [ "__HAL_RCC_UART0_RESET", "group__rcc__apb1__peri__rst.html#ga7154c82ae47f0ed0e3d453210c53ea92", null ],
+    [ "__HAL_RCC_UART5_RESET", "group__rcc__apb1__peri__rst.html#ga0895eb1ec93451fc22fc9df1ee5bc2b5", null ],
+    [ "__HAL_RCC_I2C0_RESET", "group__rcc__apb1__peri__rst.html#ga7848be011190e68dc9068d6ee6558377", null ],
+    [ "__HAL_RCC_I2C1_RESET", "group__rcc__apb1__peri__rst.html#ga1380b3bbc2556f4d854df36f73b026c3", null ],
+    [ "__HAL_RCC_I2C2_RESET", "group__rcc__apb1__peri__rst.html#gad38f7178097a0ca6ea5bb230d36ed150", null ],
+    [ "__HAL_RCC_CT16B0_RESET", "group__rcc__apb1__peri__rst.html#ga4cc642a0c33238b5e5811c27dabc9526", null ],
+    [ "__HAL_RCC_CT16B1_RESET", "group__rcc__apb1__peri__rst.html#gadf712ec2e723fbd4f79585fcdf0c5fdd", null ],
+    [ "__HAL_RCC_CT16B2_RESET", "group__rcc__apb1__peri__rst.html#gad3265a821dbfdde81fc4dc88fe226869", null ],
+    [ "__HAL_RCC_CT16B3_RESET", "group__rcc__apb1__peri__rst.html#ga968db70858ba2dbd71dcb49ff5ad0a51", null ],
+    [ "__HAL_RCC_CT16B4_RESET", "group__rcc__apb1__peri__rst.html#gaf4e4ec70d3a4b314909fcd004296dc8c", null ],
+    [ "__HAL_RCC_CT16B5_RESET", "group__rcc__apb1__peri__rst.html#gaa73a21a531ac674fb465674ca7e4491b", null ],
+    [ "__HAL_RCC_CT16B8_RESET", "group__rcc__apb1__peri__rst.html#ga2f55f50e8881d39b584c779b397af0f6", null ],
+    [ "__HAL_RCC_CRC_RESET", "group__rcc__apb1__peri__rst.html#gaa483d15f00a8bb0b5868d8c21b14a558", null ],
+    [ "__HAL_RCC_GPIO0_RESET", "group__rcc__apb1__peri__rst.html#ga410de57cac908c850b5294810a12c017", null ],
+    [ "__HAL_RCC_GPIO1_RESET", "group__rcc__apb1__peri__rst.html#gacaa1fc3829cbd1e0c22ced4923e1bc5d", null ],
+    [ "__HAL_RCC_GPIO2_RESET", "group__rcc__apb1__peri__rst.html#gaad0e1421bdadd341acfe2e45797114c0", null ],
+    [ "__HAL_RCC_GPIO3_RESET", "group__rcc__apb1__peri__rst.html#ga997537cf7c26e7d9763ba2ff4d5f3e87", null ],
+    [ "__HAL_RCC_LCM_RESET", "group__rcc__apb1__peri__rst.html#ga64238db7b6fd45dac245d5e7918e8518", null ]
+];

@@ -41,7 +41,7 @@ Plaintext
 
 
 
-## Úng dụng thực tế
+## Ứng dụng thực tế
 
 * Bảo mật dữ liệu cảm biến IoT
 * Giao tiếp an toàn Node → Gateway

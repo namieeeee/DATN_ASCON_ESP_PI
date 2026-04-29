@@ -18,29 +18,6 @@ Thư viện được viết **thuần C**, tối ưu để chạy trên các vi 
 * 
   * ESP32 (Node)**
   * Raspberry Pi 4 (Gateway)
----- Luồng dữ liệu---------------------------------------
-[ESP32 Node]
-   ↓ (Encrypt - ASCON)
-Ciphertext + Tag
-   ↓
-[Gateway - Raspberry Pi 4]
-   ↓ (Decrypt + Verify)
-Plaintext
-```
----
-
-## Cấu trúc project
-
-```
-/Core
-   main.c              // Demo (HAL / ESP-IDF)
-/ascon
-   ascon.c             // Core implementation
-   ascon.h             // API 
-   api.h               //
-
-
-
 ## Ứng dụng thực tế
 
 * Bảo mật dữ liệu cảm biến IoT

@@ -43,6 +43,9 @@ Thư viện được viết **thuần C**, tối ưu để chạy trên các vi 
 * Kết hợp DMA + UART/SPI
 * Thêm secure key storage
 ---
+## Thông số tốc dộ benchmark
+<img width="519" height="292" alt="image" src="https://github.com/user-attachments/assets/2758a148-6ff6-4142-98a2-33e91958d9d8" />
+
 ## Tác giả
 **Tran Van Nam**
 Quan tâm: Embedded Systems, IoT Security, Cryptography

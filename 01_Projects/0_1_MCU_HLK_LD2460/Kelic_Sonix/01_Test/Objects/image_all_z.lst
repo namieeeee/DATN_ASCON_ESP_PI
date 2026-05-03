@@ -1,9 +1,0 @@
-
-========================================================================
-
-** Object/Image Component Sizes
-
-      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
-
-      7368        602       1420         24       2120     283108   .\Objects\01_Test.axf
-      7368        602       1420         24          0          0   ROM Totals for .\Objects\01_Test.axf

@@ -31,7 +31,7 @@ Thư viện được viết **thuần C**, tối ưu để chạy trên các vi 
 
 ## Nền tảng sử dụng
 * Ngôn ngữ: C (thuần)
-* MCU: ESP32C6 160MHZ
+* Node   : MCU-ESP32C6 160MHZ
 * Gateway: Raspberry Pi 4
 * Framework: ESP-IDF / HAL
 ---

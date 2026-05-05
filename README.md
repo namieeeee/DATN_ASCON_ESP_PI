@@ -1,5 +1,4 @@
 ## Thư viện ASCON-128 AEAD cho hệ thống nhúng
-## SOURCE CHÍNH : DATN_ASCON_ESP_PI/tree/main/04_University/HK_225/225_DATN_KTDT/Code_Esp/Merg_Node_V3
 ## SOURCE THAM KHẢO : https://github.com/ascon/ascon-c/tree/main/crypto_aead/asconaead128/asm_rv32b
 ## Giới thiệu
 
